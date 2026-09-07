@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    padding: 20px 45px;
+    font-family: yellowtail, cursive;
+    width: 100%;
+    height: 400%;
+    background-color: rgb(217, 178, 158);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    margin-bottom: 40px;
+    background-color: rgb(217, 178, 158);
+    border: 2px solid rgb(70, 55, 24);
+    border-radius: 30px;
+    position: sticky;
+    top:20px;
+}
+
+.logo-img{
+    width: 45px
+}
+nav .logo{
+    display: flex;
+    color: rgb(70, 55, 24);
+    cursor: pointer;
+    font-size: 15px;
+    align-items: center;
+    gap: 10px;
+}
+.home{
+    font-weight: 1000;
+}
+.links{
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    color: rgb(70, 55, 24);
+}
+
+.links p{
+    cursor: pointer;
+
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 55, 24);
+    font-family: yellowtail, cursive;
+}
+
+.content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 20px
+    
+}
+
+.left{
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.left h1{
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 100px 0px 50px 160px;
+
+}
+.left p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px 0px 70px 160px;
+}
+.left button{
+    background-color: rgb(70, 55, 24);
+    border: 2px solid black;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    margin: 0px 0px 70px 160px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    margin-left: 110px;
+}
+.img1{
+    width: 550px;
+    height: 670px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+.two{
+    margin-top: 60px;
+    width: 100%;
+    height: 60%;
+    background-color: antiquewhite;
+    /* border: 2px solid rgb(70, 55, 24); */
+    border-radius: 200px;
+
+
+}
+.box1{
+    height: 38%;
+    width: 100%;
+    display:flex;
+    margin-bottom: 90px;
+}
+.box1 #one{
+    height:100%;
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 120px;
+    
+}
+.box1 #one h1{
+    font-size: 60px;
+    font-family:poppins;
+    font-weight: 400;
+    color:rgb(189, 173, 139);
+    margin-bottom: 30px;
+
+}
+
+.box1 #one h2{
+    color: black;
+    font-size: 90px;
+    font-family:serif ;
+    margin-bottom:25px;
+    margin-left:40px;
+}
+.box1 #one p{
+    color: grey;
+    font-size: 30px;
+    margin-bottom:25px;
+    margin-left:40px;
+}
+.box1 #one button{
+    width: 350px;
+    height: 80px;
+    background-color: transparent;
+    padding: 20px 40px;
+    font-size: 30px;
+    margin-left:40px;
+    border-radius: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.box1 #two img{
+    width:100%;
+    height:70%;
+    margin-top: 150px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.box2{
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    margin-bottom: 60px;
+}
+.box2 #one{
+    margin: 40px 0px 50px 80px;
+    padding: 30px 60px;
+    width: 30%;
+    height:72%;
+    border-radius: 30px;
+    background-color: #C9A898;
+    border: 2px solid #463718;
+}
+.box2 #one h1{
+    font-size: 50px;
+    font-family: serif;
+    color: black;
+    margin-bottom: 20px
+}
+.box2 #one p{
+    font-size: 35px;
+    color: grey;
+    font-family: serif;
+}
+.box2 #two{
+    margin: 40px 0px 50px 0px ;
+    padding: 30px 60px;
+    width: 30%;
+    height:72%;
+    border-radius: 30px;
+    background-color: #eae4d9;
+    border: 2px solid #463718;
+}
+.box2 #two h1{
+    font-size: 50px;
+    font-family: serif;
+    color: black;
+    margin-bottom: 20px
+}
+.box2 #two p{
+    font-size: 35px;
+    color: grey;
+    font-family: serif;
+}
+.box2 #three{
+    margin: 40px 80px 50px 0px ;
+    padding: 30px 60px;
+    width: 30%;
+    height:72%;
+    border-radius: 30px;
+    background-color: #eddfc9;
+    border: 2px solid #463718;
+}
+.box2 #three h1{
+    font-size: 50px;
+    font-family: serif;
+    color: black;
+    margin-bottom: 20px
+}
+.box2 #three p{
+    font-size: 35px;
+    color: grey;
+    font-family: serif;
+}
+
+
+
+
+
+
+
+.order{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+    background-color:#e7d4b9;
+    align-items: center;
+    margin-left: 180px;
+    border-radius: 80px;
+    border: 2px solid #463718;
+}
+
+.order .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order h1{
+    font-size: 90px;
+    font-family: serif;
+    margin-top: 60px;
+}
+.order p{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    
+}
+
+.form{
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: center;
+    align-items: center;   
+}
+
+.form input,
+.form select{
+    width:220px;
+    padding:20px 30px;
+    background-color: #fff7ec;
+    border: 2px solid #463718;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #463718;
+    
+}
+#quantity,
+#date{
+    width:333px;
+}
+
+.order button{
+    width:500px;
+    height:80px;
+    font-size:33px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: #fff7ec;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+.container{
+    color: rgb(193, 189, 189);
+    padding: 15px;
+    margin-top: 100px;
+    background-color: #3b2e12;
+    border-radius: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 200px;
+}
+
+.brand img{
+    width: 50px;
+    height:50px;
+}
+.brand{
+    margin-top: 0px;
+    margin-left: 50px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
